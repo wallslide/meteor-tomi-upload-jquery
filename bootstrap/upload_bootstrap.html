@@ -9,7 +9,7 @@
                                       class="jqUploadclass"
                                       multiple="true"
                                       data-content-category="{{ contentType }}"
-                                      data-form-data='{"contentType": "{{ contentType }}", "token": "{{token}}"}'
+                                      data-form-data='{"contentType": "{{ contentType }}", "token": "{{token}}", "userId": "{{currentUser._id}}"}'
                                       accept="{{ fileTypes }}">
             </div>
 
